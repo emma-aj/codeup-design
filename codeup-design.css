@@ -12,9 +12,20 @@
     /*background-color: white;*/
 /*}*/
 .full-width-backhround {
-    margin-left: -2000px;
-    margin-right: -2000px;
+    margin: 0 auto;
 }
 .fwb-white {
     background-color: white;
+}
+
+.nav-links {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: .5em;
+    padding: 1em;
+
+}
+
+img {
+    z-index: 2;
 }
