@@ -2,6 +2,12 @@ body, html {
     background-color: #F0F0F0;
     width: 100%;
 }
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
 .co-name,
 .nav {
     font-family: 'Abel', sans-serif;
@@ -19,6 +25,7 @@ body, html {
 img {
     margin-top: 10px;
     position: absolute;
+    float: left;
 }
 .visual-web,
 .from {
@@ -34,23 +41,43 @@ img {
 .circle {
     border: 10px solid white;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    padding: 10px;
+    width: 150px;
+    height: 150px;
+    /*padding: 35px;*/
+    /*padding-bottom: 25px;*/
+    padding-top: 50px;
+    text-align: center;
+    /*padding-left: 20px;*/
+    /*padding-right: 20px;*/
     font-weight: bold;
     font-size: 20px;
     color: #FFF;
-    margin-top: 50px;
-    margin-right: 50px;
-    float: left;
+    margin-top: 30px;
+    margin-right: 35px;
+    float: right;
     /*position: relative;*/
 }
 
-.circle > img{
-    /*position: absolute;*/
-    top: 0;
-    right: 0;
+.icon {
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    padding: 5px;
+    padding-top: .1px;
+
+    /*text-align: center;*/
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    margin-top: 3px;
+    margin-right: 3px;
+    /*float: right;*/
 }
+/*.circle > img{*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*right: 0;*/
+/*}*/
 
 /*.circle:nth-child(1), .circle:nth-child(2) {*/
     /*clear: left;*/
@@ -70,4 +97,19 @@ img {
 
 #circle-yellow {
     background-color: #EB9D3A;
+}
+
+#icon-rojo {
+    background-color: #E6563B;
+}
+
+#icon-amarillo {
+    background-color: #EB9D3A;
+}
+
+#icon-verde {
+    background-color: #7CB06C;
+}
+#icon-azul {
+    background-color: #00ABA9;
 }
