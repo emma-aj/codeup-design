@@ -21,11 +21,8 @@ img {
     position: absolute;
     float: left;
 }
-.header-img img {
+.img-responsive img {
     width: 100%;
-}
-.hidden {
-    display: none;
 }
 .visual-web,
 .from {
@@ -99,10 +96,11 @@ img {
     img {
         height: 200px;
     }
-    /*.hidden {*/
-        /*display: ;*/
-    /*}*/
     .co-name {
         margin-top: 200px;
+    }
+    .circle {
+        margin-right: 5px;
+        margin-left: 5px;
     }
 }
