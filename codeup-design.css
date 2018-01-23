@@ -91,8 +91,14 @@ img {
 #icon-azul {
     background-color: #00ABA9;
 }
+
+@media (max-width: @screen-xs-max) {
+    .hidden-small {
+        display: none;
+    }
+}
 /*SMALL SCRREN (tablets, 768px and up)*/
-@media (min-width: 768px) {
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max){
     img {
         height: 200px;
     }
@@ -102,5 +108,8 @@ img {
     .circle {
         margin-right: 5px;
         margin-left: 5px;
+    }
+    .hidden-extra {
+        display: none;
     }
 }
